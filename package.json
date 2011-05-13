@@ -1,0 +1,17 @@
+{
+  "name": "mailgun.node",
+  "description": "Mailgun API",
+  "version": "0.1.0",
+  "author": "Matt Insler <matt.insler@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mattinsler/mailgun.node.git"
+  },
+  "keywords": ["mailgun", "api"],
+  "dependencies": {
+    "request": ">= 1.9.0"
+  },
+  "main": "./lib/mailgun",
+//  "scripts": { "test": "vows test/*-test.js --spec" },
+  "engines": { "node": ">= 0.4.3" }
+}
